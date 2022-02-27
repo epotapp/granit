@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/granit/static/css/main.9c183be7.css",
+    "main.js": "/granit/static/js/main.bb989b8a.js",
+    "static/media/headerLogo.svg": "/granit/static/media/headerLogo.ff4f023d45e7443e5a3f34b4e1e5f261.svg",
+    "index.html": "/granit/index.html",
+    "main.9c183be7.css.map": "/granit/static/css/main.9c183be7.css.map",
+    "main.bb989b8a.js.map": "/granit/static/js/main.bb989b8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c183be7.css",
+    "static/js/main.bb989b8a.js"
+  ]
+}
