@@ -26,13 +26,16 @@ const Carousel = () => {
       <button className="carousel__button">
         Сделать заказ
       </button>
-    <div className="carousel__dots">
+    {/* <div className="carousel__dots">
       {Array(...Array(total)).map( (val, index) =>
-        <div className="carousel__dot" key={index} onClick={handleClick} data-position={index}>
-          {index === position ? '●●●● ' : '○○○○ ' }
+        <div className="carousel__dot_wrapper">
+          <div className="carousel__dot" key={index} onClick={handleClick} data-position={index}>
+            {index === position ? '●●●● ' : '○○○○ ' }
+          </div>
         </div>
+
       )}
-    </div>
+    </div> */}
   </div>
   );
   const Carousel = makeCarousel(CarouselUI);
@@ -41,25 +44,25 @@ const Carousel = () => {
     <Carousel defaultWait={3000} /*wait for 1000 milliseconds*/ >
       <Slide right>
         <div className="carousel__slide">
-          <img src={bg1} alt="our features" />
+          <img src={bg1} alt="" />
         </div>
       </Slide>
       <Slide right>
-        <img src={bg2} alt="our features" />
+        <img src={bg2} alt="" />
       </Slide>
       <Slide right>
-        <img src={bg3} alt="our features" />
+        <img src={bg3} alt="" />
       </Slide>
       <Slide right>
         <div className="carousel__slide">
-          <img src={bg1} alt="our features" />
+          <img src={bg1} alt="" />
         </div>
       </Slide>
       <Slide right>
-        <img src={bg2} alt="our features" />
+        <img src={bg2} alt="" />
       </Slide>
       <Slide right>
-        <img src={bg3} alt="our features" />
+        <img src={bg3} alt="" />
       </Slide>
     </Carousel>
     
