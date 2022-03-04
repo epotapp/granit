@@ -1,0 +1,81 @@
+.carousel {
+  box-sizing: border-box;
+  height: 530px;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel__title {
+  position: absolute;
+  @extend %font;
+  @include font($size: 4rem, $height: 48px, $weight: normal, $style: normal);
+  color: $color-white;
+  top: 301px;
+  left: 272px;
+  width: 272px;
+  height: 96px;
+  z-index: 20;
+
+
+  &_second {
+    position: absolute;
+    @extend %font;
+    @include font($size: 4rem, $height: 48px, $weight: normal, $style: normal);
+    color: $color-white;
+    top: 341px;
+    left: 272px;
+    width: 272px;
+    height: 96px;
+    z-index: 20;
+  }
+}
+
+.carousel__text {
+  position: absolute;
+  @extend %font;
+  @include font($size: 2.4rem, $height: 31.2px, $weight: normal, $style: normal);
+  color: $color-white;
+  top: 412px;
+  left: 272px;
+  width: 339px;
+  height: 90px;
+  z-index: 20;
+}
+
+.carousel__button {
+  position: absolute;
+  background-color: $color-brand;
+  @extend %font;
+  @include font($size: 1.8rem, $height: 19.8px, $weight: normal, $style: normal);
+  color: $color-white;
+  top: 532px;
+  left: 272px;
+  width: 191px;
+  height: 43px;
+  border: none;
+  border-radius: 4px;
+  z-index: 20;
+  cursor: pointer;
+  &:hover {
+    background-color: $color-hover;
+  }
+}
+
+.carousel__dots {
+  display: flex;
+  position: relative;
+  bottom: 30px;
+  left: 160px;
+  z-index: 100;
+  cursor: pointer;
+  background-color: $color-white;
+  color: $color-brand;
+  opacity: 0.75;
+}
+
+.carousel__dot {
+  width: 86px;
+  height: 0px;
+  border-radius: 2px;
+  font-size: 28px;
+}

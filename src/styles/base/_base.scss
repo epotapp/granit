@@ -1,0 +1,11 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  border: 0;
+  @include font ($size: 1.6rem, $height: 21px, $weight: normal, $style: normal)
+}

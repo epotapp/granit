@@ -1,0 +1,18 @@
+@mixin font ($size, $height, $weight: normal, $style: italic) {
+  font-style: $style;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+}
+
+@mixin button () {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  background-color: $color-brand;
+  @extend %font;
+  @include font($size: 1.8rem, $height: 23.4px, $weight: normal, $style: normal);
+  color: $color-white;
+}

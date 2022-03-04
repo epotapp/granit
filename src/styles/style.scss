@@ -1,0 +1,22 @@
+// Abstracts
+@import "abstracts/constants";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
+
+
+// Base
+@import "base/base";
+
+
+// Pages
+@import "pages/Home";
+
+
+// Layouts
+@import "layouts/Header/Header";
+@import "layouts/Navbar/Navbar";
+@import "layouts/Footer/Footer";
+
+
+// Components
+@import "components/Carousel";
