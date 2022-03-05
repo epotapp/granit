@@ -8,11 +8,18 @@
 @mixin button () {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 4px;
+  border: none;
   background-color: $color-brand;
   @extend %font;
   @include font($size: 1.8rem, $height: 23.4px, $weight: normal, $style: normal);
   color: $color-white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-hover;
+  }
 }
