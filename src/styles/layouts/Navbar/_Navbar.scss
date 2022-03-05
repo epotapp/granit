@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  padding: 0 264px 0 0;
+  background: $color-navbar;
+  z-index: 10;
+}
+
+.navbar__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 264px;
+  width: 100%;
+  @extend %font;
+  z-index: 10;
+}
+
+.navbar__el {
+  margin: 10px;
+  display: flex;
+}
+
+.navbar__el_icon {
+  width: 21px;
+  height: 21px;
+  padding: 2px 8px 0 0;
+}
+
+.navbar__link {
+  @include font($size: 2rem, $height: 26px, $weight: normal, $style: normal);
+  color: $color-white;
+  text-decoration: none;
+  @extend %transition;
+
+  &:hover  {
+    text-decoration: underline;
+  }
+}
+
+.navbar__search {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.navbar__search_input {
+  outline: none;
+  border: none;
+  border-bottom: solid 1px white;
+  background-color: inherit;
+  @include font($size: 1.8rem, $height: 23px, $weight: normal, $style: normal);
+  color: $color-white;
+}
+
+.navbar__search_button {
+  background: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar__search_icon {
+  height: 16px;
+  width: 16px;
+}

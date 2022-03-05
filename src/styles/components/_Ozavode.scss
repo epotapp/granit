@@ -1,0 +1,15 @@
+.ozavode {
+  display: flex;
+  justify-content: center;
+  margin-top: 62px;
+  
+  &_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+  }
+
+  &_bot {
+    margin-top: 75px;
+  }
+}

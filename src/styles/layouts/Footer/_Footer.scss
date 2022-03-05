@@ -1,0 +1,91 @@
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  background-color: $color-black;
+}
+
+.footer__information {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+
+  & * {
+    @extend %font;
+    @include font($size: 1.8rem, $height: 23.4px, $weight: normal, $style: normal);
+    color: $color-white;
+  }
+
+  & >* {
+    margin-top: 56px;
+  }
+}
+
+.footer__logo {
+  margin-top: 32px;
+  margin-left: 294px;
+}
+
+.footer__working-time {
+  margin-left: 274px;
+}
+
+.footer__address {
+  margin-left: 91px;
+}
+
+.footer__contacts {
+  margin-left: 105px;
+}
+
+.footer__telephone {
+  margin-left: 103px;
+}
+
+.footer__contacts__email_text {
+  color: $color-brand;
+}
+
+.footer__telephone_number {
+  @include font($size: 3.2rem, $height: 41.6px, $weight: normal, $style: normal);
+}
+
+.footer__lastblock {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__copyright {
+  display: flex;
+  flex-direction: column;
+  margin-top: 23px;
+  margin-left: 260px;
+  @extend %font;
+  @include font($size: 1.6rem, $height: 20.8px, $weight: normal, $style: italic);
+  color: $color-white;
+  opacity: 0.4;
+
+  &_title {
+    justify-content: center;
+  }
+
+  &_info {
+    justify-content: center;
+    @include font($size: 1.2rem, $height: 15.6px, $weight: normal, $style: italic);
+  }
+}
+
+.footer__social {
+  display: flex;
+  margin-left: 275px;
+  margin-right: 266px;
+  gap: 22.86px;
+  align-items: center;
+
+  & >* {
+    width: 40px;
+    height: 40px;
+  }
+}
