@@ -8,6 +8,7 @@ import Navbar from '../components/layouts/Navbar/Navbar';
 import Footer from '../components/layouts/Footer/Footer';
 import Carousel from '../components/UI/Carousel/Carousel';
 import OurProduction from '../components/UI/OurProduction/OurProduction';
+import Ozavode from '../components/UI/Ozavode/Ozavode';
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <Navbar/>
       <Carousel/>
       <OurProduction/>
+      <Ozavode/>
       <Routes>
         <Route path="/" element={<Home/>} />
       </Routes>   

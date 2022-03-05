@@ -7,20 +7,20 @@
 
 .ourproduction__title {
   display: flex;
+  align-items: center;
   position: relative;
   top: 112px;
   left: 264px;
-  margin-right: 21px;
 
   &_icon {
-    align-items: flex-end;
+    margin: 0 21px 0 0;
     width: 30px;
     height: 30px;
   }
 
   &_text {
     @extend %font;
-    @include font($size: 4.8rem, $height: 62.4px, $weight: normal, $style: normal);
+    @include font($size: 4.8rem, $height: 62.4px, $weight: bold, $style: normal);
   }
 }
 
