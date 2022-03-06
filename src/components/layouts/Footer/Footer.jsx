@@ -12,11 +12,11 @@ import atIcon from '../../../assets/images/png/header/atIcon.png'
 import phoneRingingIcon from '../../../assets/images/png/header/phoneRingingIcon.png'
 import catalogIcon from '../../../assets/images/png/navbar/catalogIcon.png'
 import searchIcon from '../../../assets/images/png/navbar/searchIcon.png'
-import telegram from '../../../assets/images/svg/Telegram.svg'
-import whatsapp from '../../../assets/images/svg/WhatsApp.svg'
-import insta from '../../../assets/images/svg/Instagram.svg'
-import facebook from '../../../assets/images/svg/Facebook.svg'
-import vk from '../../../assets/images/svg/VK.svg'
+import telegram from '../../../assets/images/svg/social_media/telegram.svg'
+import whatsapp from '../../../assets/images/svg/social_media/whatsapp.svg'
+import insta from '../../../assets/images/svg/social_media/instagram.svg'
+import facebook from '../../../assets/images/svg/social_media/facebook.svg'
+import vk from '../../../assets/images/svg/social_media/vk.svg'
 
 
 

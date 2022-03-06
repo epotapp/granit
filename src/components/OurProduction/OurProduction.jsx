@@ -2,13 +2,13 @@
 import React from 'react'
 
 // Assets
-import grid from '../../../assets/images/svg/Grid.svg'
-import asset1 from '../../../assets/images/png/ourproduction/asset1.png'
-import asset2 from '../../../assets/images/png/ourproduction/asset2.png'
-import asset3 from '../../../assets/images/png/ourproduction/asset3.png'
-import asset4 from '../../../assets/images/png/ourproduction/asset4.png'
-import asset5 from '../../../assets/images/png/ourproduction/asset5.png'
-import asset6 from '../../../assets/images/png/ourproduction/asset6.png'
+import grid from '../../assets/images/svg/ourproduction/grid.svg'
+import asset1 from '../../assets/images/png/ourproduction/asset1.png'
+import asset2 from '../../assets/images/png/ourproduction/asset2.png'
+import asset3 from '../../assets/images/png/ourproduction/asset3.png'
+import asset4 from '../../assets/images/png/ourproduction/asset4.png'
+import asset5 from '../../assets/images/png/ourproduction/asset5.png'
+import asset6 from '../../assets/images/png/ourproduction/asset6.png'
 
 const OurProduction = () => {
   return (

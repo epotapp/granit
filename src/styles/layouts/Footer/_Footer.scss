@@ -13,7 +13,7 @@
   align-items: center;
 
   & * {
-    @extend %font;
+    @extend %font-regular;
     @include font($size: 1.8rem, $height: 23.4px, $weight: normal, $style: normal);
     color: $color-white;
   }
@@ -62,7 +62,7 @@
   flex-direction: column;
   margin-top: 23px;
   margin-left: 260px;
-  @extend %font;
+  @extend %font-italic;
   @include font($size: 1.6rem, $height: 20.8px, $weight: normal, $style: italic);
   color: $color-white;
   opacity: 0.4;

@@ -9,12 +9,12 @@
 .carousel__title {
   position: absolute;
   max-width: 100vw;
-  @extend %font;
+  @extend %font-bold;
   @include font($size: 4rem, $height: 48px, $weight: normal, $style: normal);
   color: $color-white;
   top: 301px;
   left: 272px;
-  width: 272px;
+  width: 322px;
   height: 96px;
   z-index: 20;
 
@@ -22,12 +22,12 @@
   &_second {
     position: absolute;
     max-width: 100vw;
-    @extend %font;
+    @extend %font-bold;
     @include font($size: 4rem, $height: 48px, $weight: normal, $style: normal);
     color: $color-white;
     top: 341px;
     left: 272px;
-    width: 272px;
+    width: 322px;
     height: 96px;
     z-index: 20;
   }
@@ -36,12 +36,11 @@
 .carousel__text {
   position: absolute;
   max-width: 100vw;
-  @extend %font;
   @include font($size: 2.4rem, $height: 31.2px, $weight: normal, $style: normal);
   color: $color-white;
   top: 412px;
   left: 272px;
-  width: 339px;
+  width: 369px;
   height: 90px;
   z-index: 20;
 }
@@ -50,7 +49,6 @@
   position: absolute;
   max-width: 100vw;
   background-color: $color-brand;
-  @extend %font;
   @include font($size: 1.8rem, $height: 19.8px, $weight: normal, $style: normal);
   color: $color-white;
   top: 532px;

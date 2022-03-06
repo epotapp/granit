@@ -3,7 +3,7 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 
 //Assets
-import headerLogo from '../../../assets/images/svg/headerLogo.svg'
+import headerLogo from '../../../assets/images/svg/header/headerLogo.svg'
 import clockIcon from '../../../assets/images/png/header/clockIcon.png'
 import buildingIcon from '../../../assets/images/png/header/buildingIcon.png'
 import phoneRingingIcon from '../../../assets/images/png/header/phoneRingingIcon.png'

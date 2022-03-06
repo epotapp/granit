@@ -2,6 +2,67 @@
   transition: all .2s ease-in-out;
 }
 
-%font {
+@font-face {
+  font-family: 'Cuprum', sans-serif;
+  src: url(/src/assets/fonts/Cuprum-Regular.eot);
+  src: url(/src/assets/fonts/Cuprum-Regular.ttf);
+  src: url(/src/assets/fonts/Cuprum-Regular.woff);
+  src: url(/src/assets/fonts/Cuprum-Regular.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Cuprum', sans-serif;
+  src: url(/src/assets/fonts/Cuprum-Italic.eot);
+  src: url(/src/assets/fonts/Cuprum-Italic.ttf);
+  src: url(/src/assets/fonts/Cuprum-Italic.woff);
+  src: url(/src/assets/fonts/Cuprum-Italic.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Cuprum', sans-serif;
+  src: url(/src/assets/fonts/Cuprum-Bold.eot);
+  src: url(/src/assets/fonts/Cuprum-Bold.ttf);
+  src: url(/src/assets/fonts/Cuprum-Bold.woff);
+  src: url(/src/assets/fonts/Cuprum-Bold.woff2);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Cuprum', sans-serif;
+  src: url(/src/assets/fonts/Cuprum-BoldItalic.eot);
+  src: url(/src/assets/fonts/Cuprum-BoldItalic.ttf);
+  src: url(/src/assets/fonts/Cuprum-BoldItalic.woff);
+  src: url(/src/assets/fonts/Cuprum-BoldItalic.woff2);
+  font-weight: 700;
+}
+
+
+%font-regular {
   font-family: 'Cuprum', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+%font-italic {
+  font-family: 'Cuprum', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+
+%font-bold {
+  font-family: 'Cuprum', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+%font-bold-italic {
+  font-family: 'Cuprum', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.5px;
 }

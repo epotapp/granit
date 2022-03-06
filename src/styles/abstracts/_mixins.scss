@@ -14,7 +14,7 @@
   border-radius: 4px;
   border: none;
   background-color: $color-brand;
-  @extend %font;
+  @extend %font-regular;
   @include font($size: 1.8rem, $height: 23.4px, $weight: normal, $style: normal);
   color: $color-white;
   cursor: pointer;

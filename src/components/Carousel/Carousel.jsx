@@ -5,9 +5,9 @@ import Slide from 'react-reveal/Slide';
 
 // Assets
 
-import bg1 from '../../../assets/images/jpg/Carousel/bg1.jpg'
-import bg2 from '../../../assets/images/jpg/Carousel/bg2.jpg'
-import bg3 from '../../../assets/images/jpg/Carousel/bg3.jpg'
+import bg1 from '../../assets/images/jpg/Carousel/bg1.jpg'
+import bg2 from '../../assets/images/jpg/Carousel/bg2.jpg'
+import bg3 from '../../assets/images/jpg/Carousel/bg3.jpg'
 
 const Carousel = () => {
 

@@ -8,9 +8,8 @@
 .ourproduction__title {
   display: flex;
   align-items: center;
-  position: relative;
-  top: 112px;
-  left: 264px;
+  margin-top: 112px;
+  margin-left: 264px;
 
   &_icon {
     margin: 0 21px 0 0;
@@ -19,13 +18,13 @@
   }
 
   &_text {
-    @extend %font;
+    @extend %font-bold;
     @include font($size: 4.8rem, $height: 62.4px, $weight: bold, $style: normal);
   }
 }
 
 .ourproduction__photos {
-  margin: 192px 264px 50px 264px;
+  margin: 40px 264px 50px 264px;
   display: grid;
   grid: "a b b c"
         "a b b c"
