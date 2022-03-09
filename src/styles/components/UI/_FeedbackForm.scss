@@ -1,0 +1,195 @@
+.feedback {
+ display: flex;
+ justify-content: center;
+ padding: 112px;
+}
+
+.feedback__wrapper {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  background-color: $color-grey-background;
+  padding: 40px 43px;
+  border-radius: 4px;
+}
+
+.feedback__title {
+  display: flex;
+  align-items: center;
+
+  &_icon {
+    margin: 0 21px 0 0;
+    width: 40px;
+    height: 40px;
+  }
+
+  &_text {
+    @extend %font-bold-italic;
+    @include font($size: 3.2rem, $height: 41.6px, $weight: bold, $style: italic);
+  }
+}
+
+.feedback__fields {
+  box-sizing: content-box;
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+
+  &_name {
+    width: 380px;
+    height: 42px;
+    padding-left: 20px;
+    @include font($size: 1.8rem, $height: 26.37px, $weight: normal, $style: normal);
+    @extend %font-regular;
+
+    &::placeholder {
+      @include font($size: 1.8rem, $height: 26.37px, $weight: normal, $style: normal);
+      @extend %font-regular;
+      color: $color-placeholder;
+    }
+  }
+
+  &_email {
+    width: 380px;
+    height: 42px;
+    padding-left: 20px;
+    @include font($size: 1.8rem, $height: 26.37px, $weight: normal, $style: normal);
+    @extend %font-regular;
+
+    &::placeholder {
+      @include font($size: 1.8rem, $height: 26.37px, $weight: normal, $style: normal);
+      @extend %font-regular;
+      color: $color-placeholder;
+    }
+  }
+
+  &_message {
+    width: 692px;
+    height: 106px;
+    padding-left: 20px;
+    padding-top: 12px;
+    @include font($size: 1.8rem, $height: 26.37px, $weight: normal, $style: normal);
+    @extend %font-regular;
+    resize: none;
+
+    &::-webkit-input-placeholder {
+      @include font($size: 1.8rem, $height: 20.79px, $weight: normal, $style: normal);
+      @extend %font-regular;
+      color: $color-placeholder;
+    }
+  }
+}
+
+.feedback__fields__person {
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.feedback__fields_attachment {
+  width: 152px;
+  height: 112px;
+  background-color: inherit;
+  border: 2px solid $color-brand;
+  border-radius: 4px; 
+  cursor: pointer;
+
+  &_text {
+    margin-top: 10px;
+    @extend %font-italic;
+    @include font($size: 1.8rem, $height: 19.8px, $weight: normal, $style: italic);
+    color: $color-brand;
+  }
+}
+
+.feedback__send {
+  display: flex;
+  position: relative;
+  margin-top: 24px;  
+}
+
+.feedback__send__button {
+  background-color: $color-brand;
+  @include font($size: 1.8rem, $height: 19.8px, $weight: normal, $style: normal);
+  @extend %transition;
+  color: $color-white;
+  top: 532px;
+  left: 272px;
+  width: 135px;
+  height: 43px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  &:hover {
+    color: $color-hover;
+    background-color: $color-white;
+  }
+}
+
+.feedback__send .checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+
+  &_decor {
+    width: 20px;
+    height: 20px;
+    background-color: $color-white;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+
+    &::after {
+      content: '';
+    }
+  }
+}
+
+.feedback__send .checkbox:checked ~ .checkbox_decor {
+    background-color: $color-white;
+    border-radius: 2px;
+    width: 20px;
+    height: 20px;
+    -webkit-transform: rotate(0deg) scale(1);
+    -ms-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+
+    &::after {
+      position: absolute;
+      -webkit-transform: rotate(45deg) scale(1);
+      -ms-transform: rotate(45deg) scale(1);
+      transform: rotate(45deg) scale(1);
+      opacity: 1;      
+      left: 5.5px;
+      top: 0px;
+      width: 6px;
+      height: 12px;
+      border: solid $color-brand;
+      border-width: 0 3px 3px 0;
+      border-radius: 0;
+    }
+
+}
+
+
+.feedback__send__policy {
+  margin-left: 54px;
+  display: flex;
+  align-items: center;
+  @include font($size: 1.3rem, $height: 15.6px, $weight: normal, $style: normal);
+  @extend %font-regular;
+
+  &_text {
+    margin-left: 24px;
+  }
+
+  &_link {
+    text-decoration: none;
+    color: $color-brand;
+  }
+  & .policy_text {
+    margin-left: 12px
+  }
+}

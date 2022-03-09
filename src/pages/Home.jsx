@@ -11,6 +11,7 @@ import OurProduction from '../components/OurProduction/OurProduction';
 import Ozavode from '../components/Ozavode/Ozavode';
 import Preimuschestva from '../components/Preimuschestva/Preimuschestva';
 import SMIoNas from '../components/SMI/SMIoNas';
+import FeedbackForm from '../components/UI/FeedbackForm/FeedbackForm';
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
       <Ozavode/>
       <Preimuschestva/>
       <SMIoNas/>
+      <FeedbackForm/>
       <Routes>
         <Route path="/" element={<Home/>} />
       </Routes>   

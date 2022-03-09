@@ -2,9 +2,9 @@
 import React from 'react'
 
 // Assets
-import top from '../../assets/images/jpg/Ozavode/top.jpg'
-import mid from '../../assets/images/jpg/Ozavode/mid.jpg'
-import bot from '../../assets/images/jpg/Ozavode/bot.jpg'
+import top from '../../assets/images/jpg/ozavode/top.jpg'
+import mid from '../../assets/images/jpg/ozavode/mid.jpg'
+import bot from '../../assets/images/jpg/ozavode/bot.jpg'
 
 const Ozavode = () => {
   return (

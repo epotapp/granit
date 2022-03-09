@@ -45,6 +45,7 @@
 
   &_text {
     margin-top: 12px;
+    color: $color-darkgrey;
     @extend %font-italic;
     @include font($size: 1.6rem, $height: 21.6px, $weight: normal, $style: italic);
   }
