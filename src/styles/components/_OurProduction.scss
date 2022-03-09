@@ -9,7 +9,6 @@
   display: flex;
   align-items: center;
   margin-top: 112px;
-  margin-left: 264px;
 
   &_icon {
     margin: 0 21px 0 0;
@@ -24,7 +23,7 @@
 }
 
 .ourproduction__photos {
-  margin: 40px 264px 50px 264px;
+  margin: 40px 0 50px 0;
   display: grid;
   grid: "a b b c"
         "a b b c"
@@ -32,8 +31,8 @@
         "a b b f"
         "d d e f"
         "d d e f";
-  row-gap: 16px;
-  column-gap: 16px;
+  row-gap: 40px;
+  column-gap: 40px;
   align-content: stretch;
   justify-content: stretch;
   &_1 {
@@ -58,7 +57,7 @@
 
 .ourproduction__button {
   @include button();
-  width: 1392px;
+  width: 100%;
   height: 50px;
   margin: 0 auto;
 }

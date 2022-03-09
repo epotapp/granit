@@ -12,7 +12,7 @@ import asset6 from '../../assets/images/png/ourproduction/asset6.png'
 
 const OurProduction = () => {
   return (
-    <div className="ourproduction">
+    <section className="section-wrapper ourproduction">
       <div className="ourproduction__title">
         <img className="ourproduction__title_icon" src={grid} alt="" />
         <div className="ourproduction__title_text">Наша продукция</div>
@@ -26,7 +26,7 @@ const OurProduction = () => {
         <img className="ourproduction__photos_6"src={asset6} alt="" />
       </div>
       <button className="ourproduction__button">Перейти в каталог</button>
-    </div>
+    </section>
   )
 }
 

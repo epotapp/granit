@@ -1,0 +1,30 @@
+.certificate {
+  display: flex;
+  flex-direction: column;
+}
+
+.certificate__title {
+  display: flex;
+  align-items: center;
+  margin-top: 112px;
+
+  &_icon {
+    margin: 0 21px 0 0;
+    width: 30.5px;
+    height: 42px;
+  }
+
+  &_text {
+    @extend %font-bold;
+    @include font($size: 4.8rem, $height: 62.4px, $weight: bold, $style: normal);
+  }
+}
+
+.certificate__buttons {
+  margin-left: auto;
+}
+
+.certificate__tape {
+  display: flex;
+  overflow: hidden;
+}

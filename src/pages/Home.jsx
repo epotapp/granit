@@ -12,6 +12,9 @@ import Ozavode from '../components/Ozavode/Ozavode';
 import Preimuschestva from '../components/Preimuschestva/Preimuschestva';
 import SMIoNas from '../components/SMI/SMIoNas';
 import FeedbackForm from '../components/UI/FeedbackForm/FeedbackForm';
+import Certificate from '../components/Certificate/Certificate';
+import Otzyvy from '../components/Otzyvy/Otzyvy';
+import NashiPartnery from '../components/NashiPartnery/NashiPartnery';
 
 
 const Home = () => {
@@ -25,6 +28,9 @@ const Home = () => {
       <Preimuschestva/>
       <SMIoNas/>
       <FeedbackForm/>
+      <Certificate/>
+      <Otzyvy/>
+      <NashiPartnery/>
       <Routes>
         <Route path="/" element={<Home/>} />
       </Routes>   

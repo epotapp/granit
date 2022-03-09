@@ -12,7 +12,7 @@ import bg3 from '../../assets/images/jpg/carousel/bg3.jpg'
 const Carousel = () => {
 
   const CarouselUI = ({ position, total, handleClick, children }) => (
-  <div>
+  <section className="carousel-wrapper">
     <div className="carousel">{children}</div>
       <div className="carousel__title">
         Завод ЖБИ 
@@ -36,7 +36,7 @@ const Carousel = () => {
 
       )}
     </div> */}
-  </div>
+  </section>
   );
   const Carousel = makeCarousel(CarouselUI);
   

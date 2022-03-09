@@ -7,7 +7,7 @@ import attachmentIcon from '../../../assets/images/svg/feedbackform/attachment.s
 
 const FeedbackForm = () => {
   return (
-    <div className="feedback">
+    <section className="section-wrapper feedback">
       <div className="feedback__wrapper">
 
         <div className="feedback__title">
@@ -39,7 +39,7 @@ const FeedbackForm = () => {
         </div>
 
       </div>
-    </div>
+    </section>
   )
 }
 

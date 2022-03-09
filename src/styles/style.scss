@@ -13,6 +13,7 @@
 
 
 // Layouts
+@import "layouts/wrapper/wrapper";
 @import "layouts/Header/Header";
 @import "layouts/Navbar/Navbar";
 @import "layouts/Footer/Footer";
@@ -24,5 +25,6 @@
 @import "components/Ozavode";
 @import "components/Preimuschestva";
 @import "components/SMIoNas";
+@import "components/Certificate";
 
 @import "components/UI/FeedbackForm";

@@ -12,7 +12,7 @@ import bus from '../../assets/images/svg/preimuschestva/bus.svg'
 
 const Preimuschestva = () => {
   return (
-    <div className="preimuschestva">
+    <section className="section-wrapper preimuschestva">
       <div className="preimuschestva__title">
         <img className="preimuschestva__title_icon"src={preimuschestvaIcon} alt="" />
         <div className="preimuschestva__title_text">Преимущества завода</div>
@@ -45,7 +45,7 @@ const Preimuschestva = () => {
         </div>
       </div>
 
-    </div>
+    </section>
   )
 }
 
